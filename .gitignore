@@ -1,0 +1,8 @@
+coverage
+*.gem
+.bundle
+.rbenv-version
+Gemfile.lock
+.rvmrc
+.ruby-version
+.ruby-gemset
