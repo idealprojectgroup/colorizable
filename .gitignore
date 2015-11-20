@@ -6,3 +6,5 @@ Gemfile.lock
 .rvmrc
 .ruby-version
 .ruby-gemset
+spec/*.sqlite3
+spec/*.log
