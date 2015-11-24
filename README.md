@@ -38,6 +38,16 @@ end
 
 Each color on the model is now a `Color::RGB` object. The objects come with a number of helpers to convert the color to other formats like rgb.
 
+```ruby
+uniform = Uniform.new
+uniform.primary_color = "#cccccc"
+uniform.primary_color.red # 204
+uniform.primary_color.green # 204
+
+uniform.secondary_color = { r: 204, g: 204, b: 204 }
+uniform.secondary_color.to_s # #cccccc
+```
+
 ## How to contribute
 
 1. Fork it
