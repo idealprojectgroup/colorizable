@@ -1,5 +1,7 @@
 # Colorizable
 
+[![Build Status](https://travis-ci.org/idealprojectgroup/colorizable.svg)](https://travis-ci.org/idealprojectgroup/colorizable)
+
 This library provides integration of the [color](https://github.com/halostatue/color) gem with Rails. Use 'colorize' to specify which fields you want to be backed by `Color::RGB` objects.
 
 ## Install
